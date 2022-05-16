@@ -1,0 +1,4 @@
+# tenemos 2 interfaces eht0 y eth1 , la primera interfaz la usamos para conectar con la red 192.10.0.1~255
+ifconfig eth0 inet 192.10.0.1 netmask 255.255.255.0 broadcast 192.10.0.255 
+ifconfig eth1 inet 192.168.0.1 netmask 255.255.255.0 broadcast 192.10.0.255 
+
