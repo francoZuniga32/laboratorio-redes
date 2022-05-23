@@ -1,0 +1,8 @@
+ifconfig eth0 inet 192.168.10.1 netmask 255.255.255.0 broadcast 192.168.10.255 hw ether 00:00:00:00:00:20
+
+ifconfig eth1 inet 192.168.10.135 netmask 255.255.255.0 broadcast 192.168.10.255 hw ether 00:00:00:00:00:21
+
+ifconfig eth2 inet 200.200.1.1 netmask 255.255.255.0 broadcast 200.200.1.255 hw ether 00:00:00:00:00:22
+
+route add default gw Server
+

@@ -1,0 +1,2 @@
+ifconfig eht0 inet 200.200.1.2 netmask 255.255.255.0 broadcast 200.200.1.255 hw ether 00:00:00:00:00:D1
+route add default gw 200.200.1.1

@@ -1,0 +1,15 @@
+<nodes>
+position(136.0,224.0); NKCompaq("pc1")
+position(368.0,258.0); NKCompaq("pc2")
+position(263.0,80.0); NKHub("hub1")
+<\nodes>
+<connections>
+<link>
+Connect("hub1")
+To("pc1")
+<\link>
+<link>
+Connect("hub1")
+To("pc2")
+<\link>
+<\connections>

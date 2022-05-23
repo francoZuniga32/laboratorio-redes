@@ -1,0 +1,4 @@
+ifconfig eth0 inet 192.10.0.1 netmask 255.255.255.0 broadcast 192.10.0.255 hw ether 00:00:00:00:00:10
+
+ifconfig eth1 inet 192.168.10.129 netmask 255.255.255.0 broadcast 192.168.10.255 hw ether 00:00:00:00:00:11
+
